@@ -13,7 +13,7 @@ resource "azurerm_api_management" "CloudQuickPOCAPIM" {
   publisher_email     = "A00825234@itesm.mx"
 
   sku_name = "Developer_1"
-} 
+}  
 
 ## An API within APIM
 resource "azurerm_api_management_api" "CloudQuickPOCAPIMAPI" {
