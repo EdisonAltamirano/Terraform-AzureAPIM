@@ -10,10 +10,10 @@ resource "azurerm_api_management" "CloudQuickPOCAPIM" {
   location            = azurerm_resource_group.CloudQuickPOCAPIMRG.location
   resource_group_name = azurerm_resource_group.CloudQuickPOCAPIMRG.name
   publisher_name      = "CloudQucikPOCs"
-  publisher_email     = "cloudquickpocs@nomail.com"
+  publisher_email     = "A00@nomail.com"
 
   sku_name = "Developer_1"
-}
+} 
 
 ## An API within APIM
 resource "azurerm_api_management_api" "CloudQuickPOCAPIMAPI" {
