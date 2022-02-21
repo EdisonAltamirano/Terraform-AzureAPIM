@@ -6,9 +6,9 @@ provider "azurerm" {
 # Terraform backend configuration block -precreated
 terraform { 
   backend "azurerm" {
-    resource_group_name  = "rg-cloudquickpocs"
-    storage_account_name = "ccpsazuretf0001"
-    container_name       = "ccpterraformstatefile"
-    key                  = "ccpsterraform.tfstate"
+    resource_group_name  = "testterraform-rg"
+    storage_account_name = "tftestterraformstorage"
+    container_name       = "mytfstate"
+    key                  = "testterraform.mytfstate"
   }
 }
