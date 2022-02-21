@@ -4,7 +4,7 @@ provider "azurerm" {
   features {}
 }
 # Terraform backend configuration block -precreated
-terraform {
+terraform { 
   backend "azurerm" {
     resource_group_name  = "rg-cloudquickpocs"
     storage_account_name = "ccpsazuretf0001"
