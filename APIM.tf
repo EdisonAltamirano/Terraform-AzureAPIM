@@ -9,8 +9,8 @@ resource "azurerm_api_management" "CloudQuickPOCAPIM" {
   name                = "CloudQuickPOCsPIM"
   location            = azurerm_resource_group.CloudQuickPOCAPIMRG.location
   resource_group_name = azurerm_resource_group.CloudQuickPOCAPIMRG.name
-  publisher_name      = "CloudQucikPOCs"
-  publisher_email     = "A00@nomail.com"
+  publisher_name      = "EdisonAltamirano"
+  publisher_email     = "A00825234@itesm.mx"
 
   sku_name = "Developer_1"
 } 
